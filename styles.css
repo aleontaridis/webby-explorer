@@ -1,0 +1,59 @@
+/* styles.css */
+
+/* Styles for main window */
+QMainWindow {
+    background-color: #3b9197; /* Dark background color */
+    color: #abb2bf; /* Text color */
+    border-radius: 5px;
+}
+
+/* Styles for tab bar */
+QTabBar {
+    background-color: #3b9197; /* Darker background color */
+    color: #61e5ef; /* Tab text color */
+    border-bottom: 2px solid #1e1e1e;
+}
+
+QTabBar::tab {
+    background-color: #282c34;
+    color: #abb2bf;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+QTabBar::tab:selected {
+    background-color: #61e5ef; /* Selected tab color */
+    color: #282c34; /* Text color for selected tab */
+}
+
+/* Styles for address bar */
+QLineEdit#addressBar {
+    background-color: #414855; /* Lighter background color */
+    border: 1px solid #61e5ef;
+    padding: 8px;
+    border-radius: 5px;
+    color: #abb2bf; /* Text color */
+}
+
+/* Styles for toolbar buttons */
+QToolBar QToolButton {
+    background-color: #2c313a;
+    color: #abb2bf;
+    border: 1px solid #1e1e1e;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+QToolBar QToolButton:hover {
+    background-color: #61e5ef; /* Hover color */
+    color: #282c34; /* Text color on hover */
+}
+
+QLineEdit {
+    border-radius: 3px;
+    background: lightgray;
+    color: #000000; /* Default text color */
+}
+
+/* Additional styles as needed */

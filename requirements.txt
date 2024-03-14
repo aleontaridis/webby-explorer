@@ -1,0 +1,9 @@
+PyQt5
+QtWidgets
+QtWebEngineWidgets
+QtCore
+QtGui
+QtNetwork
+sys
+os
+json

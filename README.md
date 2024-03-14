@@ -1,5 +1,5 @@
 # Webby Explorer
-<img src="icon.ico" alt="Webby Explorer Icon" width="500" height="500">
+<img src="icon.ico" alt="Webby Explorer Icon" width="400" height="400">
 
 ## What is Webby Explorer?
 
